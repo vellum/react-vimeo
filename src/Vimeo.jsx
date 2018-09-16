@@ -269,8 +269,8 @@ export default class extends React.Component {
         className='vimeo-embed'
         style={ embedVideoStyle }>
         <iframe
-          allowfullscreen
           frameBorder='0'
+          allowFullScreen          
           ref={el => {
             this._player = el;
           }}
